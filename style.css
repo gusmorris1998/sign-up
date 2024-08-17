@@ -1,3 +1,16 @@
 * {
-    color: blue;
+    color: black;
 }
+
+body {
+    display: flex;
+}
+
+.one-third {
+     flex: 1;  /* Takes up 1 of 3 units */
+}
+
+.two-third {
+    flex: 2; /* Takes up 2 of 3 units */
+}
+
